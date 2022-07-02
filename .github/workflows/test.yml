@@ -4,7 +4,7 @@ on: [push]
 
 jobs:
   test_one_env:
-    runs_on: ubuntu-latest
+    runs-on: ubuntu-latest
     name: test_node_env
     steps:
       - name: Checkout
