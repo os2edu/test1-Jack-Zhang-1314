@@ -14,6 +14,6 @@ jobs:
         with:
           node-version: '16.x'
       - name: test_github_classroom
-        uses: |
+        run: |
           echo "console.log(process.env)" > index.js
           node index.js
